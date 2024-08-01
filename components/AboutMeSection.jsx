@@ -1,6 +1,6 @@
 const AboutMeSection = ({ title, content }) => {
   return (
-    <div className="flex flex-col items-start gap-2 self-stretch px-6">
+    <div className="flex flex-col items-start gap-2 self-stretch px-6 order-1 lg:order-2">
       <h2>{title}</h2>
       <p dangerouslySetInnerHTML={{ __html: content }}></p>
     </div>

@@ -1,6 +1,6 @@
 const ExperienceSection = ({ content }) => {
   return (
-    <div className="flex flex-col items-start gap-4 self-stretch px-6">
+    <div className="flex flex-col items-start gap-4 self-stretch px-6 order-3">
       <h2>{content[0]?.section}</h2>
       <div className="flex items-start self-stretch">
         {content?.map((item, index) => {

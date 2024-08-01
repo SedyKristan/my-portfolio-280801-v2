@@ -29,7 +29,7 @@ const Header = ({ module, icon, isScrolled }) => {
 
   return (
     <header
-      className={`flex fixed h-[54px] md:h-[98px] md:min-h-[98px] min-h-[54px]  w-screen px-4 items-center gap-9 self-stretch transition-colors duration-150 ease-in-out ${
+      className={`flex fixed h-[54px] md:h-[98px] md:min-h-[98px] min-h-[54px] z-10  w-screen px-4 items-center gap-9 self-stretch transition-colors duration-150 ease-in-out ${
         isScrolled ? "bg-light-primary shadow-sm" : "bg-transparent"
       }`}
     >
